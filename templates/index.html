@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voice Translator: Japanese to Chinese</title>
+</head>
+<body>
+    <h1>🎙️ Speak Japanese → 📘 Get Chinese</h1>
+    <button onclick="startRecording()">🎤 Start Speaking</button>
+    <p><strong>Input (Japanese):</strong> <span id="input-text"></span></p>
+    <p><strong>Output (Chinese):</strong> <span id="output-text"></span></p>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
